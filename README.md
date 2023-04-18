@@ -1,2 +1,2 @@
-# Backend Program
-The repository i have stored contains the backend data for your application, built using Node.js, Express, and MongoDB. It includes an API with various routes and middleware that facilitate communication between  application's frontend and backend. 
+# Backend && Frontend
+Repository for full-stack web app using Node.js, Express, MongoDB, and React. Backend includes API, routes, and user data storage. Frontend has 10+ modular components, Home (30 language buttons with interview questions), Login, Signup, Contact, and About pages. Codebase is scalable, efficient, and user-friendly.
