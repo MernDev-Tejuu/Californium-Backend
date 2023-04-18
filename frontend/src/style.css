@@ -1,0 +1,736 @@
+ul {
+  color: orange;
+}
+
+#navbar-body-container {
+  background-color: antiquewhite;
+  width: 100%;
+  height: 8vh;
+  position: fixed;
+  top: 0vh;
+  z-index: 100;
+
+}
+.navbar-nav {
+  font-family: "Baloo Bhai 2", cursive;
+  font-family: "Inter", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Lato", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  font-family: "Sono", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Tilt Neon", cursive;
+  font-size: 2.5vh;
+
+  position: relative;
+  left: 50.2vw;
+  padding: 10vh;
+}
+.navbar-second-div {
+  /* margin-top: 10vh; */
+  background-image: linear-gradient(#474bff 2px, transparent 2px),
+    linear-gradient(to right, #474bff 2px, transparent 2px);
+  background-size: 41px 41px;
+  background-color: #ffffff;
+}
+/* -------------------------home-body-container-------------------------------- */
+.home-body-container {
+  background-color: #5C7CFA90;
+  background-size: 48px 48px;
+  background-image: radial-gradient(transparent calc( 10px*2), #F9F7FF30 calc( 10px*2), #F9F7FF30 calc( 10px*2),transparent 24px),radial-gradient(transparent calc( 10px*2), #F9F7FF30 calc( 10px*2), #F9F7FF30 calc( 10px*2),transparent 24px);
+  background-position: 0 0 , 24px 24px;
+ overflow: auto;
+ position: sticky;
+}
+#home-text-header h1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 8vh;
+  font-family: "Baloo Bhai 2", cursive;
+  font-family: "Inter", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Lato", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  font-family: "Sono", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Tilt Neon", cursive;
+  font-size: 10vh;
+  color: white;
+  stroke: #000000;
+}
+#home-text-header h2 {
+  font-family: "Baloo Bhai 2", cursive;
+  font-family: "Inter", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Lato", sans-serif;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  font-family: "Sono", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Tilt Neon", cursive;
+  display: flex;
+  font-size: 4vh;
+  margin-top: 3vh;
+  justify-content: center;
+}
+#target1,
+#target2 {
+  background-color: yellow;
+}
+#home-text-header button {
+  font-size: 2.4vh;
+  height: 4.5vh;
+  width: 10vw;
+  position: relative;
+  left: 35vw;
+  top: 2vh;
+  background-color: yellow;
+  border-radius: 10%;
+  border-style: groove;
+  border-color: rgb(214, 57, 29);
+  font-family: "Baloo Bhai 2", cursive;
+  font-family: "Inter", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Lato", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  font-family: "Sono", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Tilt Neon", cursive;
+}
+#arrow-image {
+  height: 15vh;
+  width: 9vw;
+  position: relative;
+  left: 35vw;
+  top: 2vh;
+}
+#para-button {
+  position: relative;
+  left: 53vw;
+  bottom: 8vh;
+  color: orange;
+  width: 12.5vw;
+  
+}
+#para-button:hover {
+  background-color: rgb(230, 196, 135);
+  color: #ffffff;
+  border-radius: 7px;
+}
+.nav-link-language-background {
+  display: flex;
+  justify-content: center;
+}
+.nav-link-language {
+  background-color: #ffffff;
+  -webkit-box-shadow: 3px 3px 10px 3px #dddddd;
+  -moz-box-shadow: 3px 3px 10px 3px #dddddd;
+  box-shadow: 3px 3px 10px 3px #dddddd;
+  height: 100vh;
+  width: 80vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+#register{
+  color:red
+}
+.grid-child button {
+  border-radius: 10px;
+  background-color: #474bff;
+  color: white;
+  position: relative;
+  top: 2.5vh;
+  left: 1.1vw;
+  height: 5vh;
+  width: 11vw;
+  font-family: "Baloo Bhai 2", cursive;
+  font-family: "Inter", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Lato", sans-serif;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  font-family: "Sono", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Tilt Neon", cursive;
+}
+.grid-child button:hover {
+  background-color: #c8c9f8;
+  color: black;
+}
+#gap {
+  margin-left: 10%;
+}
+
+/* -------------------------------------.Net Core---------------------------------- */
+.main-Dotnet-background {
+  background-color: #f9f7ff30;
+  background-image: radial-gradient(#ff060690 0.5px, transparent 0.5px),
+    radial-gradient(#fa5c5c90 0.5px, #f9f7ff30 0.5px);
+  background-size: 37px 37px;
+  height: 100vh;
+  /* background-position: 0 0,37px 37px; */
+  padding-top: 10vh;
+  width: 100vw;
+
+  color: #000000;
+}
+.title-Dotnet h1 {
+  color: black;
+  text-align: center;
+  font-family: "Baloo Bhai 2", cursive;
+  font-family: "Inter", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Lato", sans-serif;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  text-decoration: solid;
+  text-align: center;
+  font-size: 7vh;
+  border-radius: 10px;
+  width: 52vw;
+  padding-top: 2vh;
+  margin: auto;
+
+  /* font-size: large; */
+}
+#msg-Hover {
+  color: yellow;
+  background-color: #000000;
+  text-align: center;
+  font-family: "Baloo Bhai 2", cursive;
+  font-family: "Inter", sans-serif;
+  padding: 2vh 2vh;
+  font-size: 2vh;
+}
+
+.grid-maker {
+  font-family: "Baloo Bhai 2", cursive;
+  font-family: "Inter", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Lato", sans-serif;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Public Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  font-family: "Secular One", sans-serif;
+  font-family: "Sono", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Tilt Neon", cursive;
+  line-height: 5.5vh;
+
+  margin: auto;
+  font-size: 3vh;
+
+  width: 70vw;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.grid-table1 {
+  border-style: solid;
+  border-color: rgb(4, 4, 71);
+  /* column-gap: 10px; */
+
+  color: white;
+  width: 6vw;
+  border-radius: 10px;
+  background-color: #444cf7;
+}
+.grid-table3 {
+  width: 9vw;
+  color: white;
+  border-radius: 10px;
+  word-spacing: 10px;
+  background-color: #444cf7;
+  border-style: solid;
+  border-color: rgb(4, 4, 71);
+}
+.grid-table2 {
+  border-radius: 10px;
+  width: 60vw;
+  background-color: #444cf7;
+  border-style: solid;
+  border-color: rgb(4, 4, 71);
+}
+#hover-effect-table2 li {
+  color: white;
+  text-align: left;
+  list-style: none;
+}
+.grid-table1 ul {
+  color: white;
+  text-align: center;
+  list-style: none;
+}
+
+.grid-table2 ul li.apply-hover:hover {
+  background-color: #707070;
+  color: white;
+  border-radius: 10px;
+}
+.grid-table3 ul li {
+  list-style: none;
+  color: #ffffff;
+  text-align: left;
+  line-height: 2;
+  background-color: #444cf7;
+  color: black;
+}
+#Go-back{
+font-size: 3.5vh;
+margin: left 6px;word-spacing: 2px;
+padding-left:2px;
+}
+#spack-back{
+  padding-right: 2px;
+}
+#button-question{
+  text-decoration: none;
+  color: rgb(46, 45, 45);
+}
+ #youtube-button{
+  text-transform: uppercase;
+  background-color: blue;
+  border-radius: 4px;
+  height: 5vh;
+  width: 13vw;
+  color:white;
+  font-size: 2.2vh;
+  font-family: "Baloo Bhai 2", cursive;
+  font-family: "Inter", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Lato", sans-serif;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Public Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Sono", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Tilt Neon", cursive;
+  position: relative;
+  left:16vw
+  
+  
+  
+}
+#yt-space{
+  padding: 3px;
+  
+}
+
+/* ---------------------------------Contact Css------------------------------------- */
+.login-outer-container{
+  border-radius: 5px;
+  height:80vh;
+  width:25vw;
+  position: relative;
+  top:20vh;
+  right:30vw;
+  border-width: 1px;
+  margin-top:9vh;
+  box-shadow: -3px 4px 33px -7px rgba(0,0,0,0.41);
+  -webkit-box-shadow: -3px 4px 33px -7px rgba(0,0,0,0.41);
+  -moz-box-shadow: -3px 4px 33px -7px rgba(0,0,0,0.41);
+}
+.login-inner-container{
+  height: 25vh;
+  width:25vw;
+  border-color: #b1b0b0;
+  border-top-width:0.1px ;
+  border-top-style: solid;
+  
+  
+  position: relative;
+  bottom:5vh;
+}
+.Contact-bg-container{
+  overflow: auto;
+  display:flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background-color: yellowgreen;
+}
+
+.fieldset{
+  margin:20%
+}
+
+.fieldset label{
+  margin-top:15px;
+  font-family: "Baloo Bhai 2", cursive;
+  font-family: "Inter", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Lato", sans-serif;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Public Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Sono", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Tilt Neon", cursive;
+
+}
+
+#text-message{
+  
+height: 20vh;
+box-sizing: border-box;
+padding: 10px; /* or any value you want */
+border: 1px solid #ccc;
+}
+.login-outer-container:hover{
+  background-color: #dfdede;
+  
+}
+.grid-contact{
+  
+  display :grid;
+  background-color: white;
+  max-height: 9vh;
+  width: 58vw;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: 1fr;
+  grid-gap: 2px;
+  position: relative;
+  bottom:30vh;
+  right:3vw;
+  font-family: "Baloo Bhai 2", cursive;
+  font-family: "Inter", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Lato", sans-serif;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Public Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Sono", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Tilt Neon", cursive;
+}
+.grid-baby{
+  transition: transform 0.5s ease;
+  transition-duration: 0.3s;
+  box-shadow: -3px 4px 33px -7px rgba(0,0,0,0.41);
+  -webkit-box-shadow: -3px 4px 33px -7px rgba(0,0,0,0.41);
+  -moz-box-shadow: -3px 4px 33px -7px rgba(0,0,0,0.41);
+  background-color: white;
+  border-width: 1px;
+  border-style: solid;
+  width:30vw;
+  color:blue;
+  border-color: #d4d4d4;
+  text-align: center;
+}
+#legend{
+  font-size:3vh;
+  background-color:  rgb(18, 18, 85);
+  border-radius: 0.5vh;
+  color:white;
+  width:20vw
+}
+legend{
+  
+  text-align: center;
+  font-family: "Baloo Bhai 2", cursive;
+  font-family: "Inter", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Lato", sans-serif;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Public Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Sono", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Tilt Neon", cursive;
+}
+.grid-baby:hover{
+  transform: scale(1.1);
+  /* background-color: #d4d4d4; */
+  cursor: pointer;
+}
+#contact-header{
+  text-decoration: none;
+}
+.login-inner-container a{
+  
+  padding-left:50px
+}
+/* .Contact-bg-color{
+  background-color: yellowgreen;
+  height: 100vh;
+  overflow-wrap: break-word;
+} */
+
+.fieldset {
+  font-family: "Baloo Bhai 2", cursive;
+  font-family: "Inter", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Lato", sans-serif;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Public Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Sono", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Tilt Neon", cursive;
+  
+}
+
+/* ------------------------------Sign up Css---------------------------------- */
+
+
+.signup-outer-page{
+  display:flex;
+  justify-content: center;
+  height: 100vh;
+  align-items:center;
+  
+}
+.signup-inner-page{
+  height: 70vh;
+  width:25vw;
+  font-family: "Baloo Bhai 2", cursive;
+  font-family: "Inter", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Lato", sans-serif;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Public Sans", sans-serif;
+  font-family: "Roboto", sans-serif;  
+  font-family: "Sono", sans-serif;
+  /* font-family: "Source Sans Pro", sans-serif; */
+  font-family: "Tilt Neon", cursive;
+  border-bottom-style:solid ;
+  border-bottom-width: 1px;
+  border-color: grey;
+  /* letter-spacing: 1px; */
+}
+#label input{
+  /* margin-top: 10px; */
+  /* padding-top: 2%; */
+  height:5px
+}
+#fieldset-signup{
+  margin-left: 15%;
+  font-size: 15px;
+}
+#fieldset-signup input{
+  margin-top: 2px;
+  padding: 8px;
+  width:13vw;
+  border: 2px blue solid;
+  border-radius: 8px;
+}
+.button-signup{
+  background-color: rgb(100, 99, 148)55, 255, 255;
+  border-radius: 7px;
+  color:rgb(0, 0, 0);
+  text-align: center;
+   position:relative;
+   bottom:40vh;
+   left:3vw;
+   padding:5px;
+   width:10vw
+}
+.button-signup:hover{
+  background-color: blue;
+  color:white
+}
+#label{
+  padding-top: 2%;
+}
+#label-right{
+  
+  position: relative;
+  left:12vw;
+  bottom:43vh;
+  padding-top: 5px;
+}
+#label{
+  position: relative;
+  right:10vw;
+  top:5px
+}
+#label-left{
+  position: relative;
+  right:10vw;
+  top:5px;
+  padding-top: 5px;
+}
+select{
+  background-color: #cacaca;
+  color:black
+}
+.signup-bg{
+  
+  background: #474bff;
+  background: -webkit-linear-gradient(102deg, #474bff 0%, #bc48ff 100%);
+  background: linear-gradient(102deg, #474bff 0%, #bc48ff 100%);
+   overflow: auto;
+  
+}
+#legend-signup{
+
+  width: 25vw;
+  border-bottom-style:dashed ;
+  border-color: #616161;
+ border-bottom-width: 1px;
+ margin-bottom: 20px;
+ font-size: 20px;
+ color:white;
+ background-color: rgb(18, 18, 85);
+ border-top-right-radius:10px;
+ border-bottom-right-radius:10px;
+ border-color: rgb(18, 18, 85);
+ border-width: 5px;
+ text-transform: capitalize;
+}
+small{
+  position: relative;
+  bottom: 33vh;
+  left:7vw
+}
+/* ---------------------------------Login-Page--------------------------------------- */
+
+#login-small{
+  position: relative;
+  top:1vw;
+  left: 5vw;
+}
+#login-page {
+  padding-top:1%;
+  margin-top:8px;
+  position:relative;
+  left:3vw;
+  font-family: "Baloo Bhai 2", cursive;
+  font-family: "Inter", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Lato", sans-serif;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Public Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Sono", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Tilt Neon", cursive;
+}
+#login-page label{
+  padding:5px;
+  margin-top:10px
+}
+#login-button{
+  background-color: rgb(50, 4, 255);
+  border-radius: 10px;
+  height: 4vh;
+  width:12vw;
+  padding-bottom: 29px;
+  margin-top:2vh;
+ color:white;
+ position: relative;
+ left:1.5vw
+}
+#jsx{
+  background-color:rgb(2, 9, 70);
+  /* border-radius: 0.5vh; */
+  color: rgb(251, 255, 41);
+  /* font-size:2.5vh; */
+}
+#login-page input{
+border: 2px solid blue;
+border-radius: 5px;
+padding: 10px;
+font-size: 16px;
+}
+/* ----------------------------About Page---------------------------- */
+
+.About-Main-Background{
+  
+  background: #474bff;
+  background: -webkit-linear-gradient(102deg, #474bff 0%, #bc48ff 100%);
+  background: linear-gradient(102deg, #474bff 0%, #bc48ff 100%);
+height:100vh;
+width:100vw;
+display: flex;
+justify-content: center;
+align-items:center;
+}
+
+.About-inner-div{
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  /* margin-left:2px ; */
+  height:75vh;
+  width:65vw;
+  background-color: white;
+  border-radius: 15px;
+  position: relative;
+  top:25px;
+}
+.About-inner-child-image{
+  
+  border-radius: 15px;
+  height:70vh;
+  width:35vw;
+  background-color: black;
+}
+.About-inner-child-image {
+  color:rgba(49, 49, 49, 0.37);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30vh;
+}
+.About-personal-info ul{
+  list-style: none;
+  color:black;
+  font-family: "Baloo Bhai 2", cursive;
+  font-family: "Inter", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Lato", sans-serif;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Public Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Sono", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Tilt Neon", cursive;
+}
+#About-Fieldset legend{
+  padding-right: 25px;
+  font-size:13px;
+  letter-spacing: 2px;
+}
+
+#About-Fieldset legend + ul h1{
+  font-size:4vh;
+  font-family: "Public Sans", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
+  /* font-family: "Sono", sans-serif; */
+  /* font-family: "Source Sans Pro", sans-serif; */
+  /* font-family: "Tilt Neon", cursive; */
+  text-transform: uppercase;
+}
+#About-Input{
+  font-family: "Public Sans", sans-serif;
+  margin: 5px;
+  font-size:2vh;
+}
+#About-Input-separate{
+  margin-left: 10px;
+  font-family: "Public Sans", sans-serif;
+  font-size:2vh;
+  color:grey;
+  padding-top:5px
+}
+#About-Fieldset ul p{
+  color:blue
+}
