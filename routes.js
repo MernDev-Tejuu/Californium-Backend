@@ -26,5 +26,5 @@ app.post('/createBook',book_control.createBook)//book creation
 app.post('/createNewAuthor',author_control.createNewAuthor)//author Creation
 app.get('/get_By_Author',author_control.get_By_Author)//get all books by it Author
 app.put('/update_By_BookName',author_control.update_By_BookName)//update any property by its bookName
-app.get('/get_Books_gte_lte',book_control.get_Books_gte_lte)
+app.get('/get_Books_gte_lte',book_control.get_Books_gte_lte)//Count author which has lte 200 and gte 50 
 module.exports=app        
