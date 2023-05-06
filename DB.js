@@ -1,5 +1,6 @@
 const mongoose = require("mongoose")
 const DB = "mongodb+srv://MERN-TEJU_DEV:Tejas1234@cluster0.s8xktfa.mongodb.net/frontend"
+//Mongoose Setup
 mongoose.set('strictQuery', true)
 mongoose.connect(DB).then(()=>{
     console.log("Mongo Connected");
