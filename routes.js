@@ -1,13 +1,12 @@
 const app = require('../index')
 
-const user_Auth_Controller =require('./controller/user_Auth')
 const auth_Controller = require('../middleware/auth')
+const user_Auth3_Controller = require('./controller/user_Auth3')
 
-
-//Roll no 14 JWT Generating/Validating session/auth-1_JWT
-app.post('/userAuth',user_Auth_Controller.create_User) 
-app.post('/getUser',user_Auth_Controller.user_Token_Creation)
-app.get('/getByParams/:userId',auth_Controller.auth_Validating,user_Auth_Controller.getByparams)
-app.put('/updateAuth/:userId',auth_Controller.auth_Validating,user_Auth_Controller.update_User)
-app.delete('/deleteUser/:userId',auth_Controller.auth_Validating,user_Auth_Controller.delete_User )
+// Roll no 15 JWT Generating/Validating/autharization session/auth-2_JWT
+app.post('/create_Auth3',user_Auth3_Controller.create_User)
+app.post('/login',user_Auth3_Controller.token_Auth)
+app.get("/verify/:userId",user_Auth3_Controller.id_Token_Check)
+app.put('/update',auth_Controller.autharisation,user_Auth3_Controller.update_Auth)
+app.delete('/delete',auth_Controller.autharisation,user_Auth3_Controller.deletion)
 module.exports=app             

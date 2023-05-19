@@ -1,4 +1,6 @@
 const user_Auth_Model = require('../model/user_Auth')
+//--------------------------------------------------
+const user_Auth = require('../model/user_Auth3')
 const bcrypt = require('bcryptjs')
 const jwt = require('jsonwebtoken')
 const mongoose  = require('mongoose')
@@ -51,4 +53,32 @@ const auth_Validating = async(req,res,next)=>{
     }
 } 
 
+
+
+const autharisation = async(req,res,next)=>{
+        const body = req.body
+        const {emailId , password}=body
+        if(!emailId)
+        return res.status(422).send({message : `EmailId is mandatory`})
+        if(!password)
+        return res.status(422).send({message : `password is mandatory`})
+//------------------------------------------------------------------
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if(!emailId.match(emailRegex))
+        return res.status(400).send({msg : `emailId is invalid`})
+         
+//------------------------------------------------------------------
+        const finder = await user_Auth.findOne({$eq : {emailId}})
+        console.log(finder)
+        if(finder === null)
+        return res.status(404).send({message : `User Not Found`})
+        const passwordVerify = await bcrypt.compare(password,finder.password)
+        if(passwordVerify===false)
+        return res.status(404).send({message : `Password Is Incorrect`})
+        
+        req._id = finder
+        next()
+        
+}
+module.exports.autharisation=autharisation
 module.exports.auth_Validating=auth_Validating
